@@ -7,9 +7,9 @@ const Characters = ({ charaters = [] }) => {
         {charaters.map((item, idx) => (
           <div key={idx}>
             {/* card */}
-            <div className="flex flex-col border-2 p-2">
+            <div className="flex flex-col border-2 p-2 h-full">
               <img src={item.image} alt="" />
-              <h2 className="text-2xl font-bold border-b-2 border-black block text-center">
+              <h2 className="text-2xl font-bold border-b-2 border-black  block text-center mb-2 ">
                 <span>Name: </span>
                 {item.name}
               </h2>
